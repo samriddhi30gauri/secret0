@@ -1,1 +1,24 @@
+## 🖥️ Sample Output
 
+When the script runs successfully, it prints the detected column names, the first few rows of the extracted table, and the decoded secret message.
+
+```text
+Column names: ['x-coordinate', 'character', 'y-coordinate']
+
+First rows:
+   x-coordinate character  y-coordinate
+0             0         H             2
+1             1         I             2
+2             2         !             2
+
+Decoded secret message:
+
+H I !
+```
+
+**Note:** This is an illustrative example. Your actual output will depend on the data in the Google Docs document.
+
+### Example Result
+
+The program reconstructs the message by placing each character at its specified X and Y coordinates in a grid. Empty coordinates are represented by spaces, preserving the layout of the decoded message.
+'
